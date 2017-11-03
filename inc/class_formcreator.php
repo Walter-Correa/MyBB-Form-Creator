@@ -247,7 +247,7 @@ class formcreator
         global $templates, $stylelabelwidth;
         $output = "";
         foreach ($this->fields as $field) {
-            $fieldname = $field->name;
+            $fieldname = "<strong>". $field->name . "</strong>";
             $fieldoutput = "";
             if ($field->required) {
                 $fieldname .= "<em>*</em>";
