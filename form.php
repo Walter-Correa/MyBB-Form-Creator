@@ -243,7 +243,7 @@ if ($formcreator->get_form($mybb->input['formid'])) {
                         // Set up the thread options
                         $new_post['options'] = array(
                             "signature" => '1',
-                            "emailnotify" => '',
+                            "subscriptionmethod" => '',
                             "disablesmilies" => '0');
 
                         $posthandler->set_data($new_post);
@@ -284,7 +284,7 @@ if ($formcreator->get_form($mybb->input['formid'])) {
                         // Set up the thread options
                         $new_thread['options'] = array(
                             "signature" => '1',
-                            "emailnotify" => '',
+                            "subscriptionmethod" => '',
                             "disablesmilies" => '0');
 
                         $posthandler->set_data($new_thread);
